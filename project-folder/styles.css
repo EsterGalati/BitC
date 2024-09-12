@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +6,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Corpo */
 body {
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #2c3e50; /* Tom de cinza-azulado mais escuro para melhor legibilidade */
+    background-color: #ecf0f1; /* Fundo claro e suave */
 }
 
+/* Contêiner */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -18,8 +21,9 @@ body {
     padding: 20px;
 }
 
+/* Cabeçalho */
 header {
-    background-color: #faf5f5;
+    background-color: #34495e; /* Azul-escuro elegante para o cabeçalho */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px 0;
     position: sticky;
@@ -30,7 +34,7 @@ header {
 .logo h1 {
     font-size: 24px;
     font-weight: 700;
-    color: #4CAF50;
+    color: #ecf0f1; /* Branco suave para destacar o logo no fundo escuro */
 }
 
 nav ul {
@@ -41,7 +45,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #333333;
+    color: #ecf0f1; /* Mesma cor branca suave para os links no cabeçalho */
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -49,16 +53,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4CAF50;
+    color: #1abc9c; /* Verde claro para hover, chamando a atenção de forma sutil */
 }
 
+/* Hero Section */
 .hero {
-    background: url('Imagem1.jpg') no-repeat center center/cover;
+    background: url('Imagem2.jpg') no-repeat center center/cover;
     color: white;
     padding: 150px 0;
     text-align: center;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(44, 62, 80, 0.7); /* Fundo escuro transparente para sobrepor a imagem */
 }
 
 .hero h2 {
@@ -75,7 +80,7 @@ nav ul li a:hover {
 .cta {
     display: inline-block;
     padding: 15px 40px;
-    background-color: #4CAF50;
+    background-color: #1abc9c; /* Verde aquático vibrante para o botão CTA */
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -84,9 +89,10 @@ nav ul li a:hover {
 }
 
 .cta:hover {
-    background-color: #45a049;
+    background-color: #16a085; /* Tom de verde mais escuro para o hover do botão */
 }
 
+/* Sessão de Informações */
 .info-section {
     padding: 80px 0;
     background-color: #ffffff;
@@ -100,15 +106,16 @@ nav ul li a:hover {
     font-size: 32px;
     margin-bottom: 40px;
     font-weight: 700;
-    color: #4CAF50;
+    color: #34495e; /* Azul-escuro sofisticado para os títulos das seções */
 }
 
 .info-section p {
     font-size: 18px;
     margin-bottom: 40px;
-    color: #666;
+    color: #7f8c8d; /* Tom de cinza médio para parágrafos, melhorando contraste */
 }
 
+/* Etapas */
 .steps {
     display: flex;
     justify-content: space-around;
@@ -117,7 +124,7 @@ nav ul li a:hover {
 
 .step {
     flex-basis: 30%;
-    background-color: #f9f9f9;
+    background-color: #ecf0f1; /* Fundo cinza-claro suave para as etapas */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
@@ -127,12 +134,13 @@ nav ul li a:hover {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #4CAF50;
+    color: #1abc9c; /* Verde aquático vibrante para os títulos das etapas */
 }
 
+/* Rodapé */
 footer {
-    background-color: #faf4f4;
-    color: rgb(88, 159, 11);
+    background-color: #34495e; /* Mesmo tom do cabeçalho para consistência */
+    color: #ecf0f1;
     padding: 40px 0;
     text-align: center;
     margin-top: 40px;
@@ -140,7 +148,7 @@ footer {
 }
 
 footer a {
-    color: #4CAF50;
+    color: #1abc9c;
     text-decoration: none;
 }
 
@@ -156,8 +164,7 @@ footer ul {
     gap: 20px;
 }
 
-
-
+/* Formulário */
 .form-section {
     padding: 80px 0;
     background-color: #ffffff;
@@ -171,7 +178,7 @@ footer ul {
     font-size: 32px;
     margin-bottom: 40px;
     font-weight: 700;
-    color: #4CAF50;
+    color: #34495e;
 }
 
 .form-group {
@@ -183,7 +190,7 @@ footer ul {
     display: block;
     font-size: 16px;
     margin-bottom: 5px;
-    color: #333;
+    color: #2c3e50;
 }
 
 .form-group input, .form-group textarea {
@@ -198,7 +205,7 @@ footer ul {
 button.cta {
     display: inline-block;
     padding: 15px 40px;
-    background-color: #4CAF50;
+    background-color: #1abc9c;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -209,5 +216,5 @@ button.cta {
 }
 
 button.cta:hover {
-    background-color: #45a049;
+    background-color: #16a085;
 }
